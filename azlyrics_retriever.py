@@ -16,7 +16,7 @@ band_url = "https://www.azlyrics.com/a/amywinehouse.html"
 site_url = "https://www.azlyrics.com"
 
 
-outfile  = "/home/alakazam/documents/databases/lot_of_lyrics.txt"    # Lyrics text file
+outfile  = "~/documents/lyrics.txt"    # Lyrics text file
 writing_mode = 'a'                                                   # Change to 'w' to clear lyrics file each time you run it
 logfile  = ".azlyrics-retriever.log"                                 # Save the processed songs
 failed_log = ".azlyrics-failed.log"                                  # Save the failed songs
