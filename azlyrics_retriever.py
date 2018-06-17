@@ -1,5 +1,4 @@
 import random
-#import didscraper.py as dscrap        https://github.com/x41lakazam/didscraper
 import lyrics_retriever as retr
 from itertools import cycle
 import requests as req
@@ -8,6 +7,8 @@ import time
 import urllib.request as url_req
 import json
 import re
+#import didscraper as dscrap        https://github.com/x41lakazam/didscraper
+#import beautifier as bfier         https://github.com/x41lakazam/azlyrics_retriever/blob/master/beautifier.py
 
 
 
@@ -147,4 +148,5 @@ if __name__ == "__main__":
 
     ofile.close()
     print('[+] Done, {} songs added ({} lines)'.format(url_counter, lines_counter))
+    #bfier.beautify(ofile) # use it to beautify your output file 
 ############################################
